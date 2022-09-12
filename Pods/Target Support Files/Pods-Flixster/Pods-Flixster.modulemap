@@ -1,0 +1,6 @@
+framework module Pods_Flixster {
+  umbrella header "Pods-Flixster-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -24,10 +24,6 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         
         tableView.dataSource = self
         tableView.delegate = self
-        // Do any additional setup after loading the view.
-        print("Hello")
-        
-        
         
         
         
@@ -87,10 +83,33 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
            
         }
         
+    // TODO for storyboard-based application
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        // getting the new view controller using segue.destination.
         
         
+        // Passing the selected object to the new view controller.
+        
+        //print("Loading up the details screen")
+        
+        // Find the selected movie
+        let cell = sender as! UITableViewCell
+        let indexPath = tableView.indexPath(for: cell)!
+        let movie = movies[indexPath.row]
+        
+        // Pass the selected movie to the details view controller.
+        
+        let detailsViewController = segue.destination as! MovieDetailsViewController
+        detailsViewController.movie = movie
+        
+        tableView.deselectRow(at: indexPath, animated: true)
         
     }
+    }
+        
+        
+
 
 
 

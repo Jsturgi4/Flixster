@@ -24,6 +24,7 @@
 		AE9417B028D3AC72009993E7 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9417AF28D3AC72009993E7 /* MovieDetailsViewController.swift */; };
 		AE9417B228D3BBB3009993E7 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9417B128D3BBB3009993E7 /* MovieGridViewController.swift */; };
 		AE9417B628D3CA13009993E7 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9417B528D3CA13009993E7 /* MovieGridCell.swift */; };
+		AE9417BA28D8F072009993E7 /* SuperHeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9417B928D8F072009993E7 /* SuperHeroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		AE9417AF28D3AC72009993E7 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		AE9417B128D3BBB3009993E7 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
 		AE9417B528D3CA13009993E7 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
+		AE9417B928D8F072009993E7 /* SuperHeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroViewController.swift; sourceTree = "<group>"; };
 		B83A6B9B0BDB5D836BD20A21 /* Pods-Flixster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flixster.debug.xcconfig"; path = "Target Support Files/Pods-Flixster/Pods-Flixster.debug.xcconfig"; sourceTree = "<group>"; };
 		CCC1BB0744694D327A39CFD9 /* Pods-Flixster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flixster.release.xcconfig"; path = "Target Support Files/Pods-Flixster/Pods-Flixster.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,6 +143,7 @@
 				AE5700CC28CEB04B00E9246F /* ViewController.swift */,
 				AE9417B528D3CA13009993E7 /* MovieGridCell.swift */,
 				AE5700CE28CEB04B00E9246F /* Main.storyboard */,
+				AE9417B928D8F072009993E7 /* SuperHeroViewController.swift */,
 				AE9417B128D3BBB3009993E7 /* MovieGridViewController.swift */,
 				AE5700F828CEC5E000E9246F /* MovieCell.swift */,
 				AE5700D128CEB04C00E9246F /* Assets.xcassets */,
@@ -430,6 +433,7 @@
 				AE5700CD28CEB04B00E9246F /* ViewController.swift in Sources */,
 				AE5700C928CEB04B00E9246F /* AppDelegate.swift in Sources */,
 				AE5700F928CEC5E000E9246F /* MovieCell.swift in Sources */,
+				AE9417BA28D8F072009993E7 /* SuperHeroViewController.swift in Sources */,
 				AE5700CB28CEB04B00E9246F /* SceneDelegate.swift in Sources */,
 				AE9417B228D3BBB3009993E7 /* MovieGridViewController.swift in Sources */,
 				AE9417B628D3CA13009993E7 /* MovieGridCell.swift in Sources */,

@@ -105,6 +105,8 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         
         tableView.deselectRow(at: indexPath, animated: true)
         
+        
+        
     }
     }
         

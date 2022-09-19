@@ -41,6 +41,7 @@
                                 <size key="customSize" width="182" height="262"/>
                                 <connections>
                                     <outlet property="posterView" destination="Bvc-5h-w8l" id="qZ9-ET-4aW"/>
+                                    <segue destination="hrm-io-Z1X" kind="show" id="T8Q-WS-N6k"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -83,7 +84,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jaa-gt-sG0">
-                                                    <rect key="frame" x="20" y="29" width="130" height="251"/>
+                                                    <rect key="frame" x="20" y="29" width="129" height="251"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="251" id="Te9-od-6Sa"/>
                                                     </constraints>
@@ -183,6 +184,52 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IzH-7w-Ne1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-742" y="1523"/>
+        </scene>
+        <!--Super Hero View Controller-->
+        <scene sceneID="WMF-8t-QPG">
+            <objects>
+                <viewController id="hrm-io-Z1X" customClass="SuperHeroViewController" customModule="Flixster" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="P2Q-bu-h3R">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="odC-hq-CUb">
+                                <rect key="frame" x="20" y="40" width="374" height="229"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9t8-65-wgi">
+                                <rect key="frame" x="20" y="192" width="132" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G9e-oP-RWO">
+                                <rect key="frame" x="160" y="285" width="135" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9zX-fn-Dqd">
+                                <rect key="frame" x="50" y="406" width="330" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="63f-zL-ON0"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lcv-EC-zMf"/>
+                    <connections>
+                        <outlet property="backdropView" destination="odC-hq-CUb" id="UwL-uA-U9P"/>
+                        <outlet property="posterView" destination="9t8-65-wgi" id="dXB-ea-hDS"/>
+                        <outlet property="synopsisLabel" destination="9zX-fn-Dqd" id="e97-07-1Oi"/>
+                        <outlet property="titleLabel" destination="G9e-oP-RWO" id="GhZ-hE-Q1a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d4B-Fc-0Ua" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="314.49275362318843" y="1532.8125"/>
         </scene>
         <!--Now Playing-->
         <scene sceneID="wu8-QZ-nKs">
